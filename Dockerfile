@@ -62,6 +62,9 @@ RUN cat ./config/genesis.json
 # this line will check if your account has the ethers specified into genesis.json>alloc
 # RUN geth --datadir . --dev --exec "eth.getBalance(eth.coinbase)" console
 
+# "--ipcpath", "/datadir/geth.ipc", 
+# VOLUME /datadir
+
 EXPOSE 8545
 EXPOSE 30303
 # TODO - check: port 30303 needed?
