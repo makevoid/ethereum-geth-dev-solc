@@ -12,8 +12,8 @@ One geth node, based on Ubuntu 16.04 LTS
 
 ### Usage:
 
-    docker pull makevoid/ethereum-geth-dev 
-    docker run -p 8545:8545 makevoid/ethereum-geth-dev
+    docker pull makevoid/ethereum-geth-dev-solc 
+    docker run -p 8545:8545 makevoid/ethereum-geth-dev-solc
 
 
 It also has:
