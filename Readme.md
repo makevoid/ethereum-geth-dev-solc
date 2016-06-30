@@ -2,6 +2,8 @@
 
 One geth node, based on Ubuntu 16.04 LTS
 
+(changes from the original makevoid/ethereum-geth-dev container: includes **solc** - Ethereum contract Solidity compiler)
+
 #### Features:
 
 - Automatic address generation (generates a new coinbase address)
